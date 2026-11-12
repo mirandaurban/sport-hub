@@ -1,0 +1,1101 @@
+[
+  {
+    "path": "/activity-service/activity/25043824747",
+    "status": 200,
+    "contentType": "application/json;charset=UTF-8",
+    "size": 5229,
+    "shape": {
+      "activityId": "number",
+      "activityUUID": {
+        "uuid": "string"
+      },
+      "activityName": "string",
+      "userProfileId": "number",
+      "isMultiSportParent": "boolean",
+      "activityTypeDTO": {
+        "typeId": "number",
+        "typeKey": "string",
+        "parentTypeId": "number"
+      },
+      "eventTypeDTO": {
+        "typeId": "number",
+        "typeKey": "string"
+      },
+      "accessControlRuleDTO": {
+        "typeId": "number",
+        "typeKey": "string"
+      },
+      "timeZoneUnitDTO": {
+        "timeZone": "string"
+      },
+      "metadataDTO": {
+        "isOriginal": "boolean",
+        "fileFormat": {
+          "formatId": "number",
+          "formatKey": "string"
+        },
+        "lastUpdateDate": "string",
+        "uploadedDate": "string",
+        "videoUrl": "null",
+        "userInfoDto": {
+          "userProfilePk": "number",
+          "displayname": "string",
+          "fullname": "string",
+          "profileImageUrlLarge": "string",
+          "profileImageUrlMedium": "string",
+          "profileImageUrlSmall": "string",
+          "userPro": "boolean"
+        },
+        "childIds": "array(0)",
+        "childActivityTypes": "array(0)",
+        "sensors": "null",
+        "activityImages": "array(0)",
+        "manufacturer": "string",
+        "lapCount": "number",
+        "hasRunPowerWindData": "boolean",
+        "calendarEventInfo": "null",
+        "hasMultiDayActivities": "boolean",
+        "elevationCorrected": "boolean",
+        "manualActivity": "boolean",
+        "autoCalcCalories": "boolean",
+        "favorite": "boolean",
+        "trimmed": "boolean",
+        "runPowerWindDataEnabled": "boolean",
+        "personalRecord": "boolean",
+        "gcj02": "boolean"
+      },
+      "summaryDTO": {
+        "startTimeLocal": "string",
+        "startTimeGMT": "string",
+        "distance": "number",
+        "duration": "number",
+        "movingDuration": "number",
+        "elapsedDuration": "number",
+        "averageSpeed": "number",
+        "averageMovingSpeed": "number",
+        "maxSpeed": "number",
+        "calories": "number",
+        "bmrCalories": "number",
+        "averageHR": "number",
+        "maxHR": "number",
+        "minHR": "number",
+        "averageRunCadence": "number",
+        "maxRunCadence": "number",
+        "averagePower": "number",
+        "maxPower": "number",
+        "minPower": "number",
+        "normalizedPower": "number",
+        "totalWork": "number",
+        "groundContactTime": "number",
+        "strideLength": "number",
+        "verticalOscillation": "number",
+        "trainingEffect": "number",
+        "anaerobicTrainingEffect": "number",
+        "aerobicTrainingEffectMessage": "string",
+        "anaerobicTrainingEffectMessage": "string",
+        "verticalRatio": "number",
+        "waterEstimated": "number",
+        "trainingEffectLabel": "string",
+        "activityTrainingLoad": "number",
+        "minActivityLapDuration": "number",
+        "directWorkoutFeel": "number",
+        "directWorkoutRpe": "number",
+        "moderateIntensityMinutes": "number",
+        "vigorousIntensityMinutes": "number",
+        "steps": "number",
+        "beginPotentialStamina": "number",
+        "endPotentialStamina": "number",
+        "minAvailableStamina": "number",
+        "differenceBodyBattery": "number"
+      },
+      "splitSummaries": [
+        "array(4)",
+        {
+          "distance": "number",
+          "duration": "number",
+          "movingDuration": "number",
+          "averageSpeed": "number",
+          "averageMovingSpeed": "number",
+          "maxSpeed": "number",
+          "calories": "number",
+          "bmrCalories": "number",
+          "averageHR": "number",
+          "maxHR": "number",
+          "averageRunCadence": "number",
+          "maxRunCadence": "number",
+          "averagePower": "number",
+          "maxPower": "number",
+          "normalizedPower": "number",
+          "groundContactTime": "number",
+          "strideLength": "number",
+          "verticalOscillation": "number",
+          "verticalRatio": "number",
+          "totalExerciseReps": "number",
+          "avgForce": "number",
+          "maxForce": "number",
+          "normalizedForce": "number",
+          "splitType": "string",
+          "noOfSplits": "number",
+          "maxDistance": "number",
+          "maxDistanceWithPrecision": "number",
+          "avgStepFrequency": "number",
+          "avgStepLength": "number"
+        }
+      ]
+    }
+  },
+  {
+    "path": "/activity-service/activity/25043824747/workouts",
+    "status": 200,
+    "contentType": "application/json;charset=UTF-8",
+    "size": 2,
+    "shape": "array(0)"
+  },
+  {
+    "path": "/activitylist-service/activities/search/activities",
+    "status": 200,
+    "contentType": "application/json;charset=UTF-8",
+    "size": 12794,
+    "shape": [
+      "array(5)",
+      {
+        "activityId": "number",
+        "activityName": "string",
+        "startTimeLocal": "string",
+        "startTimeGMT": "string",
+        "activityType": {
+          "typeId": "number",
+          "typeKey": "string",
+          "parentTypeId": "number"
+        },
+        "eventType": {
+          "typeId": "number",
+          "typeKey": "string"
+        },
+        "isFavorite": "boolean",
+        "isPR": "boolean",
+        "isAutoCalcCalories": "boolean",
+        "isParent": "boolean",
+        "distance": "number",
+        "duration": "number",
+        "elapsedDuration": "number",
+        "movingDuration": "number",
+        "averageSpeed": "number",
+        "maxSpeed": "number",
+        "hasImages": "boolean",
+        "ownerId": "number",
+        "ownerDisplayName": "string",
+        "ownerFullName": "string",
+        "ownerProfileImageUrlSmall": "string",
+        "ownerProfileImageUrlMedium": "string",
+        "ownerProfileImageUrlLarge": "string",
+        "calories": "number",
+        "bmrCalories": "number",
+        "averageHR": "number",
+        "maxHR": "number",
+        "averageRunningCadenceInStepsPerMinute": "number",
+        "maxRunningCadenceInStepsPerMinute": "number",
+        "steps": "number",
+        "privacy": {
+          "typeId": "number",
+          "typeKey": "string"
+        },
+        "hasVideo": "boolean",
+        "beginTimestamp": "number",
+        "sportTypeId": "number",
+        "avgPower": "number",
+        "maxPower": "number",
+        "aerobicTrainingEffect": "number",
+        "anaerobicTrainingEffect": "number",
+        "normPower": "number",
+        "avgVerticalOscillation": "number",
+        "avgGroundContactTime": "number",
+        "avgStrideLength": "number",
+        "avgVerticalRatio": "number",
+        "maxDoubleCadence": "number",
+        "isElevationCorrected": "boolean",
+        "isDecoDive": "boolean",
+        "summarizedDiveInfo": {
+          "summarizedDiveGases": "array(0)"
+        },
+        "manufacturer": "string",
+        "lapCount": "number",
+        "waterEstimated": "number",
+        "trainingEffectLabel": "string",
+        "activityTrainingLoad": "number",
+        "minActivityLapDuration": "number",
+        "aerobicTrainingEffectMessage": "string",
+        "anaerobicTrainingEffectMessage": "string",
+        "splitSummaries": [
+          "array(4)",
+          {
+            "noOfSplits": "number",
+            "duration": "number",
+            "splitType": "string",
+            "maxDistance": "number",
+            "maxDistanceWithPrecision": "number",
+            "distance": "number",
+            "averageSpeed": "number",
+            "maxSpeed": "number",
+            "avgStepFrequency": "number",
+            "avgStepLength": "number",
+            "verticalRatio": "number",
+            "verticalOscillation": "number",
+            "avgGroundContactTime": "number"
+          }
+        ],
+        "isManualActivity": "boolean",
+        "moderateIntensityMinutes": "number",
+        "vigorousIntensityMinutes": "number",
+        "differenceBodyBattery": "number",
+        "hrTimeInZone_1": "number",
+        "hrTimeInZone_2": "number",
+        "hrTimeInZone_3": "number",
+        "hrTimeInZone_4": "number",
+        "hrTimeInZone_5": "number",
+        "powerTimeInZone_1": "number",
+        "powerTimeInZone_2": "number",
+        "powerTimeInZone_3": "number",
+        "powerTimeInZone_4": "number",
+        "powerTimeInZone_5": "number",
+        "endTimeGMT": "string",
+        "qualifyingDive": "boolean",
+        "activityUUID": "string",
+        "autoCalcCalories": "boolean",
+        "elevationCorrected": "boolean",
+        "pr": "boolean",
+        "decoDive": "boolean",
+        "favorite": "boolean",
+        "parent": "boolean",
+        "manualActivity": "boolean"
+      }
+    ]
+  },
+  {
+    "path": "/download-service/files/activity/25043824747",
+    "status": 406,
+    "contentType": "application/json",
+    "size": 158,
+    "shape": "archivo binario (no se guarda)",
+    "error": "{\"clientMessage\":\"Reference Error ID in error logs for further information\",\"errorId\":\"0e2dab86-229f-440b-a49c-a70c4f8d85d2\",\"error\":\"NotAcceptableException\"}"
+  },
+  {
+    "path": "/wellnessactivity-service/activity/summary/range/2026-11-04/2026-11-11",
+    "status": 200,
+    "contentType": "application/json",
+    "size": 2,
+    "shape": "array(0)"
+  },
+  {
+    "path": "/biometric-service/heartRateZones/v2",
+    "status": 200,
+    "contentType": "application/json",
+    "size": 259,
+    "shape": [
+      "array(1)",
+      {
+        "trainingMethod": "string",
+        "restingHeartRateUsed": "number",
+        "lactateThresholdHeartRateUsed": "number",
+        "zone1Floor": "number",
+        "zone2Floor": "number",
+        "zone3Floor": "number",
+        "zone4Floor": "number",
+        "zone5Floor": "number",
+        "maxHeartRateUsed": "number",
+        "restingHrAutoUpdateUsed": "boolean",
+        "sport": "string"
+      }
+    ]
+  },
+  {
+    "path": "/fitnessage-service/fitnessage/v2/2026-11-11",
+    "status": 200,
+    "contentType": "application/json",
+    "size": 489,
+    "shape": {
+      "chronologicalAge": "number",
+      "fitnessAge": "number",
+      "achievableFitnessAge": "number",
+      "previousFitnessAge": "number",
+      "components": {
+        "vigorousDaysAvg": {
+          "value": "number",
+          "stale": "boolean",
+          "numOfWeeksForIm": "number"
+        },
+        "rhr": {
+          "value": "number",
+          "stale": "boolean"
+        },
+        "vigorousMinutesAvg": {
+          "value": "number",
+          "stale": "boolean",
+          "numOfWeeksForIm": "number"
+        },
+        "bmi": {
+          "value": "number",
+          "targetValue": "number",
+          "improvementValue": "number",
+          "potentialAge": "number",
+          "priority": "number",
+          "stale": "boolean",
+          "lastMeasurementDate": "string"
+        }
+      },
+      "lastUpdated": "string"
+    }
+  },
+  {
+    "path": "/goal-service/goal/user/effective/weightgoal/2026-11-04/2026-11-11",
+    "status": 200,
+    "contentType": "application/json;charset=UTF-8",
+    "size": 276,
+    "shape": {
+      "userGoals": [
+        "array(1)",
+        {
+          "userGoalCategory": "string",
+          "userGoalType": "string",
+          "startDate": "string",
+          "endDate": "null",
+          "goalName": "null",
+          "goalValue": "number",
+          "updateDate": "string",
+          "createDate": "string",
+          "trackingPeriodType": "string"
+        }
+      ],
+      "userGoalRanges": "null"
+    }
+  },
+  {
+    "path": "/hrv-service/hrv/2026-11-11",
+    "status": 200,
+    "contentType": "application/json",
+    "size": 10405,
+    "shape": {
+      "userProfilePk": "number",
+      "hrvSummary": {
+        "calendarDate": "string",
+        "weeklyAvg": "number",
+        "lastNightAvg": "number",
+        "lastNight5MinHigh": "number",
+        "baseline": {
+          "lowUpper": "number",
+          "balancedLow": "number",
+          "balancedUpper": "number",
+          "markerValue": "number"
+        },
+        "status": "string",
+        "feedbackPhrase": "string",
+        "createTimeStamp": "string"
+      },
+      "hrvReadings": [
+        "array(97)",
+        {
+          "hrvValue": "number",
+          "readingTimeGMT": "string",
+          "readingTimeLocal": "string"
+        }
+      ],
+      "startTimestampGMT": "string",
+      "endTimestampGMT": "string",
+      "startTimestampLocal": "string",
+      "endTimestampLocal": "string",
+      "sleepStartTimestampGMT": "string",
+      "sleepEndTimestampGMT": "string",
+      "sleepStartTimestampLocal": "string",
+      "sleepEndTimestampLocal": "string"
+    }
+  },
+  {
+    "path": "/hrv-service/hrv/daily/2026-11-04/2026-11-11",
+    "status": 200,
+    "contentType": "application/json",
+    "size": 2229,
+    "shape": {
+      "hrvSummaries": [
+        "array(8)",
+        {
+          "calendarDate": "string",
+          "weeklyAvg": "number",
+          "lastNightAvg": "number",
+          "lastNight5MinHigh": "number",
+          "baseline": {
+            "lowUpper": "number",
+            "balancedLow": "number",
+            "balancedUpper": "number",
+            "markerValue": "number"
+          },
+          "status": "string",
+          "feedbackPhrase": "string",
+          "createTimeStamp": "string"
+        }
+      ],
+      "userProfilePk": "number"
+    }
+  },
+  {
+    "path": "/nutrition-service/food/logs/2026-11-11",
+    "status": 200,
+    "contentType": "application/json",
+    "size": 1254,
+    "shape": {
+      "mealDate": "string",
+      "dayStartTime": "string",
+      "dayEndTime": "string",
+      "dailyNutritionGoals": {
+        "calories": "number",
+        "adjustedCalories": "number",
+        "carbs": "number",
+        "adjustedCarbs": "number",
+        "fat": "number",
+        "adjustedFat": "number",
+        "protein": "number",
+        "adjustedProtein": "number"
+      },
+      "mealDetails": [
+        "array(5)",
+        {
+          "meal": {},
+          "mealNutritionGoals": {
+            "calories": "number",
+            "adjustedCalories": "number",
+            "carbs": "number",
+            "adjustedCarbs": "number",
+            "fat": "number",
+            "adjustedFat": "number",
+            "protein": "number",
+            "adjustedProtein": "number"
+          },
+          "loggedFoods": "array(0)"
+        }
+      ],
+      "loggedFoodsWithServingSizes": "array(0)"
+    }
+  },
+  {
+    "path": "/sleep-service/sleep/dailySleep",
+    "status": 200,
+    "contentType": "application/json",
+    "size": 3081,
+    "shape": {
+      "id": "number",
+      "userProfilePK": "number",
+      "calendarDate": "string",
+      "sleepTimeSeconds": "number",
+      "napTimeSeconds": "number",
+      "sleepWindowConfirmed": "boolean",
+      "sleepWindowConfirmationType": "string",
+      "sleepStartTimestampGMT": "number",
+      "sleepEndTimestampGMT": "number",
+      "sleepStartTimestampLocal": "number",
+      "sleepEndTimestampLocal": "number",
+      "autoSleepStartTimestampGMT": "null",
+      "autoSleepEndTimestampGMT": "null",
+      "sleepQualityTypePK": "null",
+      "sleepResultTypePK": "null",
+      "unmeasurableSleepSeconds": "number",
+      "deepSleepSeconds": "number",
+      "lightSleepSeconds": "number",
+      "remSleepSeconds": "number",
+      "awakeSleepSeconds": "number",
+      "deviceRemCapable": "boolean",
+      "retro": "boolean",
+      "sleepFromDevice": "boolean",
+      "averageSpO2Value": "number",
+      "lowestSpO2Value": "number",
+      "highestSpO2Value": "number",
+      "averageSpO2HRSleep": "number",
+      "averageRespirationValue": "number",
+      "lowestRespirationValue": "number",
+      "highestRespirationValue": "number",
+      "awakeCount": "number",
+      "avgSleepStress": "number",
+      "ageGroup": "string",
+      "avgHeartRate": "number",
+      "sleepScoreFeedback": "string",
+      "sleepScoreInsight": "string",
+      "sleepScorePersonalizedInsight": "string",
+      "sleepScores": {
+        "totalDuration": {
+          "qualifierKey": "string",
+          "optimalStart": "number",
+          "optimalEnd": "number"
+        },
+        "stress": {
+          "qualifierKey": "string",
+          "optimalStart": "number",
+          "optimalEnd": "number"
+        },
+        "awakeCount": {
+          "qualifierKey": "string",
+          "optimalStart": "number",
+          "optimalEnd": "number"
+        },
+        "overall": {
+          "value": "number",
+          "qualifierKey": "string"
+        },
+        "remPercentage": {
+          "value": "number",
+          "qualifierKey": "string",
+          "optimalStart": "number",
+          "optimalEnd": "number",
+          "idealStartInSeconds": "number",
+          "idealEndInSeconds": "number"
+        },
+        "restlessness": {
+          "qualifierKey": "string",
+          "optimalStart": "number",
+          "optimalEnd": "number"
+        },
+        "lightPercentage": {
+          "value": "number",
+          "qualifierKey": "string",
+          "optimalStart": "number",
+          "optimalEnd": "number",
+          "idealStartInSeconds": "number",
+          "idealEndInSeconds": "number"
+        },
+        "deepPercentage": {
+          "value": "number",
+          "qualifierKey": "string",
+          "optimalStart": "number",
+          "optimalEnd": "number",
+          "idealStartInSeconds": "number",
+          "idealEndInSeconds": "number"
+        }
+      },
+      "sleepVersion": "number",
+      "sleepNeed": {
+        "userProfilePk": "number",
+        "calendarDate": "string",
+        "deviceId": "number",
+        "timestampGmt": "string",
+        "baseline": "number",
+        "actual": "number",
+        "feedback": "string",
+        "trainingFeedback": "string",
+        "sleepHistoryAdjustment": "string",
+        "hrvAdjustment": "string",
+        "napAdjustment": "string",
+        "displayedForTheDay": "boolean",
+        "recommendedBedtimeStartMins": "number",
+        "recommendedBedtimeEndMins": "number",
+        "preferredActivityTracker": "boolean"
+      },
+      "nextSleepNeed": {
+        "userProfilePk": "number",
+        "calendarDate": "string",
+        "deviceId": "number",
+        "timestampGmt": "string",
+        "baseline": "number",
+        "actual": "number",
+        "feedback": "string",
+        "trainingFeedback": "string",
+        "sleepHistoryAdjustment": "string",
+        "hrvAdjustment": "string",
+        "napAdjustment": "string",
+        "displayedForTheDay": "boolean",
+        "recommendedBedtimeStartMins": "number",
+        "recommendedBedtimeEndMins": "number",
+        "preferredActivityTracker": "boolean"
+      },
+      "sleepAlignment": {
+        "userId": "number",
+        "calendarDate": "string",
+        "deviceId": "number",
+        "isPreferredActivityTracker": "boolean",
+        "sleepNeedBaselineMins": "number",
+        "optimalSleepWindowStartMins": "number",
+        "optimalSleepWindowEndMins": "number",
+        "status": "string",
+        "optimalSleepWindowMidpointMins": "number",
+        "lastSleepMidpointMins": "number"
+      }
+    }
+  },
+  {
+    "path": "/sleep-service/sleep/dailySleepSummariesByDate",
+    "status": 400,
+    "contentType": "application/json",
+    "size": 2,
+    "shape": {},
+    "error": "{}"
+  },
+  {
+    "path": "/usersummary-service/stats/hydration/daily/2026-11-04/2026-11-11",
+    "status": 200,
+    "contentType": "application/json",
+    "size": 2,
+    "shape": "array(0)"
+  },
+  {
+    "path": "/usersummary-service/stats/steps/daily/2026-11-04/2026-11-11",
+    "status": 200,
+    "contentType": "application/json",
+    "size": 683,
+    "shape": [
+      "array(8)",
+      {
+        "calendarDate": "string",
+        "totalSteps": "number",
+        "totalDistance": "number",
+        "stepGoal": "number"
+      }
+    ]
+  },
+  {
+    "path": "/usersummary-service/stats/stress/daily/2026-11-04/2026-11-11",
+    "status": 200,
+    "contentType": "application/json",
+    "size": 1363,
+    "shape": [
+      "array(8)",
+      {
+        "calendarDate": "string",
+        "values": {
+          "highStressDuration": "number",
+          "lowStressDuration": "number",
+          "overallStressLevel": "number",
+          "restStressDuration": "number",
+          "mediumStressDuration": "number"
+        }
+      }
+    ]
+  },
+  {
+    "path": "/usersummary-service/usersummary/daily",
+    "status": 200,
+    "contentType": "application/json",
+    "size": 4059,
+    "shape": {
+      "userProfileId": "number",
+      "totalKilocalories": "number",
+      "activeKilocalories": "number",
+      "bmrKilocalories": "number",
+      "consumedKilocalories": "null",
+      "remainingKilocalories": "null",
+      "totalSteps": "number",
+      "netCalorieGoal": "null",
+      "totalDistanceMeters": "number",
+      "wellnessDistanceMeters": "number",
+      "userDailySummaryId": "number",
+      "calendarDate": "string",
+      "uuid": "string",
+      "dailyStepGoal": "number",
+      "wellnessStartTimeGmt": "string",
+      "wellnessStartTimeLocal": "string",
+      "wellnessEndTimeGmt": "string",
+      "wellnessEndTimeLocal": "string",
+      "durationInMilliseconds": "number",
+      "wellnessDescription": "null",
+      "highlyActiveSeconds": "number",
+      "activeSeconds": "number",
+      "sedentarySeconds": "number",
+      "sleepingSeconds": "number",
+      "includesWellnessData": "boolean",
+      "includesActivityData": "boolean",
+      "includesCalorieConsumedData": "boolean",
+      "moderateIntensityMinutes": "number",
+      "vigorousIntensityMinutes": "number",
+      "floorsAscendedInMeters": "number",
+      "floorsDescendedInMeters": "number",
+      "floorsAscended": "number",
+      "floorsDescended": "number",
+      "intensityMinutesGoal": "number",
+      "userFloorsAscendedGoal": "number",
+      "minHeartRate": "number",
+      "maxHeartRate": "number",
+      "restingHeartRate": "number",
+      "lastSevenDaysAvgRestingHeartRate": "number",
+      "source": "string",
+      "averageStressLevel": "number",
+      "maxStressLevel": "number",
+      "stressDuration": "number",
+      "restStressDuration": "number",
+      "activityStressDuration": "number",
+      "uncategorizedStressDuration": "number",
+      "totalStressDuration": "number",
+      "lowStressDuration": "number",
+      "mediumStressDuration": "number",
+      "highStressDuration": "number",
+      "stressPercentage": "number",
+      "restStressPercentage": "number",
+      "activityStressPercentage": "number",
+      "uncategorizedStressPercentage": "number",
+      "lowStressPercentage": "number",
+      "mediumStressPercentage": "number",
+      "highStressPercentage": "number",
+      "stressQualifier": "string",
+      "measurableAwakeDuration": "number",
+      "measurableAsleepDuration": "number",
+      "lastSyncTimestampGMT": "string",
+      "minAvgHeartRate": "number",
+      "maxAvgHeartRate": "number",
+      "bodyBatteryChargedValue": "number",
+      "bodyBatteryDrainedValue": "number",
+      "bodyBatteryHighestValue": "number",
+      "bodyBatteryLowestValue": "number",
+      "bodyBatteryMostRecentValue": "number",
+      "bodyBatteryDuringSleep": "number",
+      "bodyBatteryAtWakeTime": "number",
+      "bodyBatteryVersion": "number",
+      "abnormalHeartRateAlertsCount": "null",
+      "averageSpo2": "number",
+      "lowestSpo2": "number",
+      "latestSpo2": "number",
+      "latestSpo2ReadingTimeGmt": "string",
+      "latestSpo2ReadingTimeLocal": "string",
+      "averageMonitoringEnvironmentAltitude": "number",
+      "bodyBatteryDynamicFeedbackEvent": {
+        "eventTimestampGmt": "string",
+        "bodyBatteryLevel": "string",
+        "feedbackShortType": "string",
+        "feedbackLongType": "string"
+      },
+      "endOfDayBodyBatteryDynamicFeedbackEvent": {
+        "eventTimestampGmt": "string",
+        "bodyBatteryLevel": "string",
+        "feedbackShortType": "string",
+        "feedbackLongType": "string"
+      },
+      "bodyBatteryActivityEventList": [
+        "array(3)",
+        {
+          "eventType": "string",
+          "eventStartTimeGmt": "string",
+          "timezoneOffset": "number",
+          "durationInMilliseconds": "number",
+          "bodyBatteryImpact": "number",
+          "feedbackType": "string",
+          "shortFeedback": "string",
+          "deviceId": "number",
+          "activityName": "null",
+          "activityType": "null",
+          "activityId": "null",
+          "eventUpdateTimeGmt": "string"
+        }
+      ],
+      "avgWakingRespirationValue": "number",
+      "highestRespirationValue": "number",
+      "lowestRespirationValue": "number",
+      "latestRespirationValue": "number",
+      "latestRespirationTimeGMT": "string",
+      "respirationAlgorithmVersion": "number"
+    }
+  },
+  {
+    "path": "/usersummary-service/v2/dailysummaries",
+    "status": 400,
+    "contentType": "application/json",
+    "size": 2,
+    "shape": {},
+    "error": "{}"
+  },
+  {
+    "path": "/weight-service/weight/all/2026-11-04/2026-11-11",
+    "status": 200,
+    "contentType": "application/json",
+    "size": 2,
+    "shape": "array(0)"
+  },
+  {
+    "path": "/weight-service/weight/range/2026-11-04/2026-11-11",
+    "status": 200,
+    "contentType": "application/json",
+    "size": 535,
+    "shape": {
+      "dailyWeightSummaries": "array(0)",
+      "totalAverage": {
+        "from": "number",
+        "until": "number",
+        "weight": "null",
+        "bmi": "null",
+        "bodyFat": "null",
+        "bodyWater": "null",
+        "boneMass": "null",
+        "muscleMass": "null",
+        "physiqueRating": "null",
+        "visceralFat": "null",
+        "metabolicAge": "null"
+      },
+      "previousDateWeight": {
+        "date": "number",
+        "calendarDate": "string",
+        "weight": "number",
+        "bmi": "null",
+        "bodyFat": "null",
+        "bodyWater": "null",
+        "boneMass": "null",
+        "muscleMass": "null",
+        "physiqueRating": "null",
+        "visceralFat": "null",
+        "metabolicAge": "null",
+        "timestampGMT": "number",
+        "weightDelta": "number"
+      },
+      "nextDateWeight": "null"
+    }
+  },
+  {
+    "path": "/wellness-service/wellness/bodyBattery/reports/daily",
+    "status": 200,
+    "contentType": "application/json",
+    "size": 14867,
+    "shape": [
+      "array(8)",
+      {
+        "date": "string",
+        "charged": "number",
+        "drained": "number",
+        "startTimestampGMT": "string",
+        "endTimestampGMT": "string",
+        "startTimestampLocal": "string",
+        "endTimestampLocal": "string",
+        "bodyBatteryValuesArray": [
+          "array(6)",
+          [
+            "array(2)",
+            "number"
+          ]
+        ],
+        "bodyBatteryValueDescriptorDTOList": [
+          "array(2)",
+          {
+            "bodyBatteryValueDescriptorIndex": "number",
+            "bodyBatteryValueDescriptorKey": "string"
+          }
+        ],
+        "bodyBatteryDynamicFeedbackEvent": {
+          "eventTimestampGmt": "string",
+          "bodyBatteryLevel": "string",
+          "feedbackShortType": "string",
+          "feedbackLongType": "string"
+        },
+        "bodyBatteryActivityEvent": [
+          "array(3)",
+          {
+            "eventType": "string",
+            "eventStartTimeGmt": "string",
+            "timezoneOffset": "number",
+            "durationInMilliseconds": "number",
+            "bodyBatteryImpact": "number",
+            "feedbackType": "string",
+            "shortFeedback": "string"
+          }
+        ],
+        "endOfDayBodyBatteryDynamicFeedbackEvent": {
+          "eventTimestampGmt": "string",
+          "bodyBatteryLevel": "string",
+          "feedbackShortType": "string",
+          "feedbackLongType": "string"
+        }
+      }
+    ]
+  },
+  {
+    "path": "/wellness-service/wellness/daily/spo2acclimation/2026-11-11",
+    "status": 200,
+    "contentType": "application/json",
+    "size": 6006,
+    "shape": {
+      "userProfilePK": "number",
+      "calendarDate": "string",
+      "startTimestampGMT": "string",
+      "endTimestampGMT": "string",
+      "startTimestampLocal": "string",
+      "endTimestampLocal": "string",
+      "sleepStartTimestampGMT": "string",
+      "sleepEndTimestampGMT": "string",
+      "sleepStartTimestampLocal": "string",
+      "sleepEndTimestampLocal": "string",
+      "tomorrowSleepStartTimestampGMT": "null",
+      "tomorrowSleepEndTimestampGMT": "null",
+      "tomorrowSleepStartTimestampLocal": "null",
+      "tomorrowSleepEndTimestampLocal": "null",
+      "averageSpO2": "number",
+      "lowestSpO2": "number",
+      "lastSevenDaysAvgSpO2": "number",
+      "latestSpO2": "number",
+      "latestSpO2TimestampGMT": "string",
+      "latestSpO2TimestampLocal": "string",
+      "avgSleepSpO2": "number",
+      "avgTomorrowSleepSpO2": "null",
+      "spO2SingleValuesDescriptorList": [
+        "array(3)",
+        {
+          "spo2ValueDescriptorIndex": "number",
+          "spo2ValueDescriptorKey": "string"
+        }
+      ],
+      "spO2SingleValues": "null",
+      "spO2HourlyAveragesDescriptorList": [
+        "array(3)",
+        {
+          "spo2ValueDescIndex": "number",
+          "spo2ValueDescKey": "string"
+        }
+      ],
+      "spO2HourlyAverages": [
+        "array(18)",
+        [
+          "array(3)",
+          "number"
+        ]
+      ],
+      "monitoringEnvironmentValuesDescriptorList": [
+        "array(2)",
+        {
+          "monEnvValueDescIndex": "number",
+          "monEnvValueDescKey": "string"
+        }
+      ],
+      "monitoringEnvironmentValues": [
+        "array(171)",
+        [
+          "array(2)",
+          "number"
+        ]
+      ]
+    }
+  },
+  {
+    "path": "/wellness-service/wellness/dailyHeartRate",
+    "status": 200,
+    "contentType": "application/json",
+    "size": 9766,
+    "shape": {
+      "userProfilePK": "number",
+      "calendarDate": "string",
+      "startTimestampGMT": "string",
+      "endTimestampGMT": "string",
+      "startTimestampLocal": "string",
+      "endTimestampLocal": "string",
+      "maxHeartRate": "number",
+      "minHeartRate": "number",
+      "restingHeartRate": "number",
+      "lastSevenDaysAvgRestingHeartRate": "number",
+      "heartRateValueDescriptors": [
+        "array(2)",
+        {
+          "index": "number",
+          "key": "string"
+        }
+      ],
+      "heartRateValues": [
+        "array(489)",
+        [
+          "array(2)",
+          "number"
+        ]
+      ]
+    }
+  },
+  {
+    "path": "/periodichealth-service/menstrualcycle/summary/2026-11-11",
+    "status": 200,
+    "contentType": "application/json",
+    "size": 219,
+    "shape": {
+      "startDate": "string",
+      "dayInCycle": "number",
+      "periodLength": "number",
+      "currentPhase": "number",
+      "lengthOfCurrentPhase": "number",
+      "daysUntilNextPhase": "number",
+      "predictedCycleLength": "number",
+      "educationContentMod": "number",
+      "cycleType": "string",
+      "predictedCycle": "boolean"
+    }
+  },
+  {
+    "path": "/periodichealth-service/menstrualcycle/dayview/2026-11-11",
+    "status": 200,
+    "contentType": "application/json",
+    "size": 248,
+    "shape": {
+      "daySummary": {
+        "startDate": "string",
+        "dayInCycle": "number",
+        "periodLength": "number",
+        "currentPhase": "number",
+        "lengthOfCurrentPhase": "number",
+        "daysUntilNextPhase": "number",
+        "predictedCycleLength": "number",
+        "educationContentMod": "number",
+        "cycleType": "string",
+        "predictedCycle": "boolean"
+      },
+      "dayLog": "null"
+    }
+  },
+  {
+    "path": "/userprofile-service/userprofile/settings",
+    "status": 200,
+    "contentType": "application/json",
+    "size": 1137,
+    "shape": {
+      "displayName": "string",
+      "preferredLocale": "string",
+      "measurementSystem": "string",
+      "firstDayOfWeek": {
+        "dayId": "number",
+        "dayName": "string",
+        "sortOrder": "number",
+        "isPossibleFirstDay": "boolean"
+      },
+      "numberFormat": "string",
+      "timeFormat": {
+        "formatId": "number",
+        "formatKey": "string",
+        "minFraction": "number",
+        "maxFraction": "number",
+        "groupingUsed": "boolean",
+        "displayFormat": "string"
+      },
+      "dateFormat": {
+        "formatId": "number",
+        "formatKey": "string",
+        "minFraction": "number",
+        "maxFraction": "number",
+        "groupingUsed": "boolean",
+        "displayFormat": "string"
+      },
+      "powerFormat": {
+        "formatId": "number",
+        "formatKey": "string",
+        "minFraction": "number",
+        "maxFraction": "number",
+        "groupingUsed": "boolean",
+        "displayFormat": "null"
+      },
+      "heartRateFormat": {
+        "formatId": "number",
+        "formatKey": "string",
+        "minFraction": "number",
+        "maxFraction": "number",
+        "groupingUsed": "boolean",
+        "displayFormat": "null"
+      },
+      "timeZone": "string",
+      "hydrationMeasurementUnit": "string",
+      "hydrationContainers": [
+        "array(3)",
+        {
+          "name": "string",
+          "volume": "number",
+          "unit": "string"
+        }
+      ],
+      "golfDistanceUnit": "string",
+      "golfElevationUnit": "null",
+      "golfSpeedUnit": "null",
+      "availableTrainingDays": "null",
+      "preferredLongTrainingDays": "null"
+    }
+  }
+]
